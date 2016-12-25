@@ -55,6 +55,6 @@ bitbake bbexample
 bitbake core-image-riscv
 ```  
 Then runqemu to see the result.  
-Please notice that there's no gcc(riscv-poky-gnu-gcc) by default, if you want to add gcc, modify meta-riscv/recipes-core/images/core-image-riscv.bb, you can see gcc install option has been commented out, just delete the '#' and rerun bitbake core-image-riscv.
-
-
+Please notice that there's no gcc(riscv-poky-gnu-gcc) by default, if you want to add gcc, modify meta-riscv/recipes-core/images/core-image-riscv.bb, you can see gcc install option has been commented out, just delete the '#' and rerun bitbake core-image-riscv.  
+###5.More Details
+If you are curious about the build process, it will be helpful to see the file ```Using Bitbake to Generate an Embedded RISCV Linux Distribution.pptx```in this repo.
