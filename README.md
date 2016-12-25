@@ -53,7 +53,8 @@ add a line: ${TOPDIR}/../meta-example \ to BBLAYERS ?= in build/conf/bblayers.co
 add a line: IMAGE_INSTALL_append = " bbexample" to build/conf/local.conf
 bitbake bbexample
 bitbake core-image-riscv
-```
+```  
+Then runqemu to see the result.  
+Please notice that there's no gcc(riscv-poky-gnu-gcc) by default, if you want to add gcc, modify meta-riscv/recipes-core/images/core-image-riscv.bb, you can see gcc install option has been commented out, just delete the '#' and rerun bitbake core-image-riscv.
 
-Then runqemu to see the result.
 
