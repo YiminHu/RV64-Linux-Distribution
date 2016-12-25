@@ -1,6 +1,6 @@
 # RV64-Linux-Distribution
 
-### 1.introduction
+### 1.Introduction
 
 This project is based on riscv-poky, which has most part similar with that repo. The purpose of this project is to automatically generate a RISCV Linux distribution with basic packages install on it. Also, in order to show it's flexible for install a new package, the project add a new software bbexample to the system. And this bbexample make the project slightly different with riscv-poky.
 
